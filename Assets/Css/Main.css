@@ -2,39 +2,39 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     text-decoration: none;
+    box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
 
 /* Estilos del pie de página */
 .pie-pagina {
-    background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
 }
 
 .grupo-1 {
-    padding: 45px 0px;
     width: 100%;
-    max-width: 1200px;
     margin: auto;
     display:grid;
     grid-gap:50px;
+    max-width: 1200px;
+    padding: 45px 0px;
     grid-template-columns: repeat(4, 2fr);
 }
 
 .grupo-2{
-    background-color: rgb(34, 34, 34);
     display: flex;
-    justify-content: space-between;
     padding: 40px 100px;
+    justify-content: space-between;
+    background-color: rgb(34, 34, 34);
 }
 
 /* Estilos del logo */
 figure{
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
   }
 
 figure img{
@@ -48,8 +48,8 @@ figure img{
 
 .pie-cont h4{
     font-size: 22px;
-    margin-bottom: 25px;
     position: relative;
+    margin-bottom: 25px;
 }
 
 .pie-cont h4::before{
@@ -62,12 +62,13 @@ figure img{
 }
 
 p {
-    text-decoration: none;
     font-size: 16px;
+    text-aling: justify;
+    text-decoration: none;
 }
 
 .pie-cont ul li{
-    padding: 10px 0;
+    padding: 0 0 20px 0;
 }
 .pie-cont ul li a{
     opacity: 0.7;
@@ -90,16 +91,16 @@ p {
 
 .formulario .caja{
     width: 100%;
+    border: none;
+    padding: 1rem;
+    margin: 0.5rem 0;
     text-transform: none;
     color: rgb(128, 128, 128);
-    margin: 0.5rem 0;
-    padding: 1rem;
-    border: none;
     background-color: rgb(34, 34, 34);
 }
 
 .formulario .caja:focus{
-    border-color: var(--white);
+    border-color: rgb(195, 0, 255);
 }
 
 .formulario .caja::placeholder{
@@ -108,29 +109,30 @@ p {
 
 .formulario textarea{
     height: 5rem;
-    resize: none
+    resize: none;
 }
 
 .formulario .btn{
-    margin-top: 0.5rem;
     width: 100%;
     padding: 10px;
+    cursor: pointer;
+    transition: 0.7s;
+    margin-top: 0.5rem;
+    color: rgb(195, 0, 255);
     border-color: rgb(195, 0, 255);
     background-color: rgba(0, 0, 0, 0);
-    color: rgb(195, 0, 255);
-    transition: 0.7s;
-    cursor: pointer;
+
 }
 
 .formulario .btn:hover{
-    background-color: rgb(195, 0, 255);
     color: rgb(255, 255, 255);
+    background-color: rgb(195, 0, 255);
 }
 
 .cont a {
+    transition: 0.7s;
     text-decoration: none;
     color: rgb(255, 255, 255);
-    transition: 0.7s;
 }
 .cont a:hover{
     text-decoration: none;
@@ -138,10 +140,10 @@ p {
 }
 
 .redes-sociales i{
-    color: rgb(255, 255, 255);
-    font-size: 20px;
     margin: 0 15px;
+    font-size: 20px;
     transition: 0.5s;
+    color: rgb(255, 255, 255);
 }
 
 .redes-sociales i:hover{
