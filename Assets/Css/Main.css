@@ -63,7 +63,7 @@ figure img{
 
 p {
     font-size: 16px;
-    text-aling: justify;
+    text-align: justify;
     text-decoration: none;
 }
 
@@ -97,10 +97,6 @@ p {
     text-transform: none;
     color: rgb(128, 128, 128);
     background-color: rgb(34, 34, 34);
-}
-
-.formulario .caja:focus{
-    border-color: rgb(195, 0, 255);
 }
 
 .formulario .caja::placeholder{
